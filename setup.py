@@ -55,7 +55,7 @@ setup(
         "pwny",
     ],
     include_package_data=True,
-    install_requires=["requests==2.21.0"],
+    install_requires=[],
     license="Apache Software License 2.0",
     zip_safe=False,
     keywords="django-pwny",
