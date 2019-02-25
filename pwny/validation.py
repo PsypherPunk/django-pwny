@@ -1,8 +1,7 @@
 import hashlib
+import urllib.request
 
 from django.core.exceptions import ValidationError
-
-import requests
 
 
 class HaveIBeenPwnedValidator:
@@ -13,12 +12,13 @@ class HaveIBeenPwnedValidator:
         digest = sha1.hexdigest().upper()
         prefix = digest[:5]
         url = f"https://api.pwnedpasswords.com/range/{prefix}"
-        r = requests.get(url, headers={"User-Agent": "django-pwny"})
-        for suffix_count in r.text.splitlines():
+        request = urllib.request.Request(url, headers={"User-Agent": "django-pwny"})
+        response = urllib.request.urlopen(request)
+        for suffix_count in response.read().decode("utf-8").splitlines():
             suffix, count = suffix_count.split(":")
-            if digest ==f"{prefix}{suffix}":
+            if digest == f"{prefix}{suffix}":
                 raise ValidationError( 
-                    f"Your password has been pwned {count} times!"
+                    f"Your password has been pwned {int(count):,} times!"
                 )
 
     def get_help_text(self):
