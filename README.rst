@@ -12,7 +12,7 @@ Install django-pwny::
 
     pip install django-pwny
 
-Add it to your `INSTALLED_APPS`:
+Add it to your `AUTH_PASSWORD_VALIDATORS`:
 
 .. code-block:: python
 
