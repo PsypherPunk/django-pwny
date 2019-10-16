@@ -2,6 +2,9 @@
 django-pwny
 =============================
 
+.. image:: https://travis-ci.com/PsypherPunk/django-pwny.png?branch=master
+   :target: https://travis-ci.com/PsypherPunk/django-pwny
+
 *Have I Been Pwned?* password validator. Inspired by a
 `blog post <https://www.thedatashed.co.uk/2019/02/07/django-pwny/>`_ on the subject.
 
@@ -35,7 +38,7 @@ Does the code actually work?
 ::
 
     source <YOURVIRTUALENV>/bin/activate
-    (myenv) $ pip install requirements/test.txt
+    (myenv) $ pip install Django requirements/test.txt
     (myenv) $ tox
 
 Credits
