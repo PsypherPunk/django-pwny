@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FPsypherPunk%2Fdjango-pwny.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FPsypherPunk%2Fdjango-pwny?ref=badge_shield)
+
 =============================
 django-pwny
 =============================
@@ -52,3 +54,7 @@ Tools used in rendering this package:
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackage
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FPsypherPunk%2Fdjango-pwny.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FPsypherPunk%2Fdjango-pwny?ref=badge_large)
