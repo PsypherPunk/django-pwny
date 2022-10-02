@@ -1,3 +1,2 @@
 -r base.txt
-coverage==4.5.4
-tox==3.14.0
+pre-commit==2.20.0

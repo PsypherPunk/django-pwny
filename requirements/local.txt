@@ -1,4 +1,0 @@
--r base.txt
-pre-commit==1.18.3
-wheel==0.33.6
-
