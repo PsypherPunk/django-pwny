@@ -7,7 +7,7 @@ readme = pathlib.Path(pathlib.Path(__file__).parent / "README.md").read_text()
 
 setup(
     name="django-pwny",
-    version="0.2.3",
+    version="0.2.4",
     description="Have I Been Pwned? password validator",
     long_description=readme,
     author="PsypherPunk",
