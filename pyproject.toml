@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-pwny"
-version = "0.2.12"
+version = "0.2.13"
 description = "Have I Been Pwned? password validator"
 authors = ["PsypherPunk <psypherpunk@gmail.com>"]
 license = "Apache-2.0"
@@ -16,7 +16,7 @@ pre-commit = "^3.7.1"
 pytest = "^8.3.1"
 
 [tool.commitizen]
-version = "0.2.12"
+version = "0.2.13"
 bump_message = "bump: version $current_version → $new_version [skip ci]"
 version_files = [
     "pwny/__init__.py:^__version__",
