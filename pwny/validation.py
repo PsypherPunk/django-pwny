@@ -21,4 +21,4 @@ class HaveIBeenPwnedValidator:
                 )
 
     def get_help_text(self):
-        return "Your password should not appear in a list of compromised " "passwords."
+        return "Your password should not appear in a list of compromised passwords."

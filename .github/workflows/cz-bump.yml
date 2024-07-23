@@ -20,7 +20,7 @@ jobs:
       
       - name: Install Commitizen
         run: |
-          python3 -m pip install commitizen==2.35.0
+          python3 -m pip install commitizen==3.28.0
       
       - name: Validate commits
         if: github.ref != 'refs/heads/main'
