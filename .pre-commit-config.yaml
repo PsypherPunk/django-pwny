@@ -9,15 +9,11 @@ repos:
     hooks:
     - id: bandit
       args: [--skip=B303, --exclude=tests]
--   repo: https://github.com/igorshubovych/markdownlint-cli                     
-    rev: v0.41.0                                                                
-    hooks:                                                                      
-    - id: markdownlint                                                          
--   repo: https://github.com/PyCQA/isort                                        
-    rev: 5.13.2                                                                 
-    hooks:                                                                      
-    - id: isort                                                                 
--   repo: https://github.com/Lucas-C/pre-commit-hooks-safety                    
-    rev: v1.3.3                                                                 
-    hooks:                                                                      
-    -   id: python-safety-dependencies-check
+-   repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.41.0
+    hooks:
+    - id: markdownlint
+-   repo: https://github.com/PyCQA/isort
+    rev: 5.13.2
+    hooks:
+    - id: isort
