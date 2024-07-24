@@ -14,6 +14,8 @@ django = "^5.0.7"
 commitizen = "^3.28.0"
 pre-commit = "^3.7.1"
 pytest = "^8.3.1"
+pytest-django = "^4.8.0"
+black = "^24.4.2"
 
 [tool.commitizen]
 version = "0.2.13"
@@ -26,6 +28,9 @@ version_files = [
 [tool.commitizen.customize]
 bump_pattern = '^(BREAKING CHANGE|build|chore|docs|feat|fix|refactor|test)(\(.+\))?(!)?'
 bump_map = {"!" = "MAJOR", build = "PATCH", chore = "PATCH", docs = "PATCH", feat = "MINOR", fix = "PATCH", refactor = "PATCH", test = "PATCH" }
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "tests.settings"
 
 [build-system]
 requires = ["poetry-core"]
