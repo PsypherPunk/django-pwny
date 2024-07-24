@@ -6,7 +6,7 @@ the subject.
 
 ## Quickstart
 
-Install django-pwny:
+Install `django-pwny`:
 
 ```sh
 pip install django-pwny
@@ -22,18 +22,16 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 ```
 
-## Features
-
-- TODO
-
 ## Running Tests
 
-Does the code actually work?
+`django-pwny` makes use of
+[`pytest-dev/pytest-django`](https://github.com/pytest-dev/pytest-django) to
+run tests via [`pytest`](https://docs.pytest.org/).
+
+Assuming dependencies are installed, simply run:
 
 ```sh
-source <YOURVIRTUALENV>/bin/activate
-(myenv) $ pip install Django requirements/test.txt
-(myenv) $ tox
+pytest
 ```
 
 ## Credits
