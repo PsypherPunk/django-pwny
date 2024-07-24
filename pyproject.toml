@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "django-pwny"
+name = "pwny"
 version = "0.2.15"
 description = "Have I Been Pwned? password validator"
 authors = ["PsypherPunk <psypherpunk@gmail.com>"]
