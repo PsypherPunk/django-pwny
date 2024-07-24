@@ -1,5 +1,8 @@
 [tool.poetry]
-name = "pwny"
+name = "django-pwny"
+packages = [
+    { include = "pwny" },
+]
 version = "0.2.16"
 description = "Have I Been Pwned? password validator"
 authors = ["PsypherPunk <psypherpunk@gmail.com>"]
