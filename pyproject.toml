@@ -3,7 +3,7 @@ name = "django-pwny"
 packages = [
     { include = "pwny" },
 ]
-version = "0.2.19"
+version = "0.2.20"
 description = "Have I Been Pwned? password validator"
 authors = ["PsypherPunk <psypherpunk@gmail.com>"]
 license = "Apache-2.0"
@@ -21,7 +21,7 @@ pytest-django = "^4.8.0"
 black = "^24.4.2"
 
 [tool.commitizen]
-version = "0.2.19"
+version = "0.2.20"
 bump_message = "bump: version $current_version → $new_version [skip ci]"
 version_files = [
     "pwny/__init__.py:^__version__",
